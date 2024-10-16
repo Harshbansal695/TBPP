@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+.butt {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.butt:hover {
+  background-color: grey;
+}
+.first {
+  background-image: url("first.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.txt {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.sec h1,
+h5,
+p {
+  text-align: center;
+}
+.sec p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.sec {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-icon {
+  text-align: center;
+}
+
+.profile-icon span {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.profile img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-content p {
+  max-width: 400px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.third {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill-info {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  background-color: #4d4d4d;
+  border-radius: 20px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
